@@ -1,0 +1,87 @@
+# =========================
+# 🧱 .NET / C#
+# =========================
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# 🧪 Test results
+# =========================
+TestResults/
+*.trx
+*.coverage
+
+# =========================
+# 📦 NuGet
+# =========================
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# =========================
+# 🧰 Visual Studio
+# =========================
+.vs/
+*.vscode/
+*.code-workspace
+
+# =========================
+# 🧠 Rider / JetBrains
+# =========================
+.idea/
+
+# =========================
+# 🌐 ASP.NET Core
+# =========================
+wwwroot/lib/
+appsettings.Development.json
+appsettings.Local.json
+
+# =========================
+# 🔐 Secrets / Seguridad
+# =========================
+secrets.json
+*.pfx
+*.key
+*.crt
+
+# =========================
+# 🐳 Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# 🗄️ Base de datos
+# =========================
+*.db
+*.sqlite
+*.mdf
+*.ldf
+
+# =========================
+# 📁 Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# ⚙️ Archivos de sistema
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 📦 Node (por si agregas frontend extra)
+# =========================
+node_modules/
+
+# =========================
+# 🔧 EF Core
+# =========================
+Migrations/*Designer.cs
